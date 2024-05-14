@@ -14,8 +14,8 @@ import Link from 'next/link'
 
 const navigation = [
   { name: 'Dashboard', href: '/dashboard', current: true },
-  { name: 'Page #1', href: '#', current: false },
-  { name: 'Page #2', href: '#', current: false },
+  { name: 'About', href: '/about', current: false },
+  { name: 'Conntact', href: '/contact', current: false },
 ]
 
 export default function Navbar({
